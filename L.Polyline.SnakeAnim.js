@@ -74,8 +74,8 @@ L.Polyline.include({
 	},
 
 	_snakeForward: function(forward) {
-		// If the
 		if (!this._map) {
+			// If the layer has been removed from the map during animation
 			this._snakeEnd();
 			return;
 		}
